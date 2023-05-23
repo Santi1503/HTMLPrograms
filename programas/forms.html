@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+    <h2>Register</h2>
+    <form action="/tacos">
+        <p>
+            <label for="username">Enter a Username: </label>
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter a Password:</label>
+            <input id="password" type="password" placeholder="password" name="password">
+        </p>
+        <p>
+            <label for="color">Select a color:</label>
+            <input id="color" type="color" name="color">
+        </p>
+        <p>
+            <label for="number">Enter your age:</label>
+            <input id="number" type="number" placeholder="Age" name="age" min="1" max="100">
+        </p>
+        <p>
+            <label for="date">Enter your day of birth:</label>
+            <input id="date" type="date" name="date">
+        </p>
+
+        <button type="submit">Submit</button>
+    </form>
+    <h2>Search Preference</h2>
+    <form action="https://www.google.com/search?q=pizza">
+
+        <input type="text" name="q">
+        <button>Search Google</button>
+
+    </form>
+    <form action="https://www.youtube.com/results?">
+        <input type="text" name="search_query">
+        <button>Search YouTube</button>
+    </form>
+    <h2>Checkers</h2>
+    <form action="/balgit">
+        <input type="checkbox" name="agree" id="agree">
+        <label for="agree">I agree to all terms :)</label>
+        <p>
+            <input type="radio" name="no" id="XD" value="XD">
+            <label for="XD">La mama</label>
+            <input type="radio" name="no" id="abb" value="abb">
+            <label for="abb">de la mama</label>
+            <input type="radio" name="no" id="hola" value="hola">
+            <label for="hola">de la mama</label>
+        </p>
+        <p>
+            <label for="car">please select your preference</label>
+            <select name="car" id="car">car
+                <option value="..."> </option>
+                <option value="lamborghini">Lamborghini</option>
+                <option value="Porsche">Porsche</option>
+                <option value="Ferrari">Ferrari</option>
+                <option value="Bugatti">Bugatti</option>
+                <option value="Mustang">Mustang</option>
+            </select>
+        </p>
+        <p>
+            <label for="volume">Set volume:</label>
+            <input type="range" name="volume" id="volume" value="50" min="1" max="100">
+        </p>
+
+        <p>
+            <label for="requests">any special requests?</label>
+            <br>
+            <textarea name="requests" id="requests" cols="30" rows="10" placeholder="Request">
+            </textarea>
+        </p>
+        <p>
+            <label for="registros">Enter registration</label>
+            <input type="text" name="registros" id="registros" required placeholder="registration">
+        </p>
+        <p>
+            <label for="username1">Username</label>
+            <input type="text" name="username" id="username1" minlength="8" maxlength="15" placeholder="username"
+                required>
+
+        </p>
+        <p>
+            <label for="password1">Password</label>
+            <input type="password" name="Password" id="password1" placeholder="password" minlength="8" maxlength="15"
+                required>
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="email" required>
+        </p>
+        <button>Submit</button>
+    </form>
+
+</body>
+
+</html>

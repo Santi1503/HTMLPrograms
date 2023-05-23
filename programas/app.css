@@ -1,0 +1,18 @@
+h1 {
+    color:goldenrod;
+    background-color: wheat;
+}
+h2 {
+    color: lightseagreen;
+}
+button {
+    color: rgb(253, 0, 0);
+    background-color: rgb(209, 171, 166);
+}
+p {
+    color: peru;
+    background-color: rgb(255, 252, 224);
+}
+button {
+    font-size: 20px;
+}
